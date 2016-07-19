@@ -9,31 +9,32 @@
 #import "ViewController.h"
 #import "CollectionViewCell.h"
 
-@interface ViewController ()<UICollectionViewDelegateFlowLayout>
+@interface ViewController ()
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
 
-    // 此处给其增加长按手势，用此手势触发cell移动效果
+    UICollectionViewFlowLayout *flowLayout = (UICollectionViewFlowLayout *)self.collectionView.collectionViewLayout;
+    flowLayout.estimatedItemSize = CGSizeMake(50, 50);
+//    flowLayout.minimumInteritemSpacing = 10;
+//    flowLayout.minimumLineSpacing = 10;
+
+    //此处给其增加长按手势，用此手势触发cell移动效果
     UILongPressGestureRecognizer *longGesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handlelongGesture:)];
     [self.collectionView addGestureRecognizer:longGesture];
 
     self.collectionView.backgroundColor = [UIColor whiteColor];
+
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return 100;
-}
-
--(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
-{
-    return 5;
+    return 10;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
@@ -51,8 +52,8 @@
     return cell;
 }
 
-- (void)handlelongGesture:(UILongPressGestureRecognizer *)longGesture
-{
+
+- (void)handlelongGesture:(UILongPressGestureRecognizer *)longGesture {
     //判断手势状态
     switch (longGesture.state) {
         case UIGestureRecognizerStateBegan:{
@@ -87,22 +88,9 @@
 
 - (void)collectionView:(UICollectionView *)collectionView moveItemAtIndexPath:(NSIndexPath *)sourceIndexPath toIndexPath:(NSIndexPath *)destinationIndexPath
 {
-    NSLog(@"(%ld, %ld) -> (%ld, %ld)", (long)sourceIndexPath.section, (long)sourceIndexPath.row, (long)destinationIndexPath.section, (long)destinationIndexPath.row);
+    NSLog(@"%ld -> %ld", (long)sourceIndexPath.row, (long)destinationIndexPath.row);
 
     [collectionView reloadData];
-}
-
--(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
-{
-    //Provides a different size for each invidual cell
-    CGSize itemSize;
-    if (indexPath.row % 2 == 0) {
-        itemSize = CGSizeMake(80, 50);
-    } else {
-        itemSize = CGSizeMake(50, 50);
-    }
-
-    return itemSize;
 }
 
 @end
