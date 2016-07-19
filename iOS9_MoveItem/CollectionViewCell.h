@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CollectionViewCell.h
 //  iOS9_MoveItem
 //
 //  Created by Zhangwei on 6/26/16.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UICollectionViewController
+@interface CollectionViewCell : UICollectionViewCell
 
+@property (nonatomic, strong) NSIndexPath *indexPath;
 
 @end
-

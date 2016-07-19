@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  CollectionViewCell.m
 //  iOS9_MoveItem
 //
 //  Created by Zhangwei on 6/26/16.
 //  Copyright © 2016 ZhangWei_Kenny. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "CollectionViewCell.h"
 
-@interface ViewController : UICollectionViewController
-
+@implementation CollectionViewCell
 
 @end
-

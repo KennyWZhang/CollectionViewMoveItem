@@ -7,39 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		721539C81D2A757A006CCE41 /* KwzFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 721539C71D2A757A006CCE41 /* KwzFlowLayout.m */; };
-		721539CE1D2A779C006CCE41 /* ButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 721539CC1D2A779C006CCE41 /* ButtonCell.m */; };
-		721539CF1D2A779C006CCE41 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 721539CD1D2A779C006CCE41 /* ButtonCell.xib */; };
-		721539D31D2A77EC006CCE41 /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 721539D11D2A77EC006CCE41 /* TextFieldCell.m */; };
-		721539D41D2A77EC006CCE41 /* TextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 721539D21D2A77EC006CCE41 /* TextFieldCell.xib */; };
-		721539D81D2AB31B006CCE41 /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 721539D61D2AB31B006CCE41 /* LabelCell.m */; };
-		721539D91D2AB31B006CCE41 /* LabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 721539D71D2AB31B006CCE41 /* LabelCell.xib */; };
 		727398061D1FBCA1002F881B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 727398051D1FBCA1002F881B /* main.m */; };
 		727398091D1FBCA1002F881B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 727398081D1FBCA1002F881B /* AppDelegate.m */; };
 		7273980C1D1FBCA1002F881B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7273980B1D1FBCA1002F881B /* ViewController.m */; };
+		7273980F1D1FBCA1002F881B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7273980D1D1FBCA1002F881B /* Main.storyboard */; };
 		727398111D1FBCA1002F881B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727398101D1FBCA1002F881B /* Assets.xcassets */; };
+		727398141D1FBCA1002F881B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727398121D1FBCA1002F881B /* LaunchScreen.storyboard */; };
+		7273981D1D1FC242002F881B /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7273981C1D1FC242002F881B /* CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		721539C61D2A757A006CCE41 /* KwzFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KwzFlowLayout.h; sourceTree = "<group>"; };
-		721539C71D2A757A006CCE41 /* KwzFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KwzFlowLayout.m; sourceTree = "<group>"; };
-		721539CB1D2A779C006CCE41 /* ButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCell.h; sourceTree = "<group>"; };
-		721539CC1D2A779C006CCE41 /* ButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCell.m; sourceTree = "<group>"; };
-		721539CD1D2A779C006CCE41 /* ButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
-		721539D01D2A77EC006CCE41 /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
-		721539D11D2A77EC006CCE41 /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
-		721539D21D2A77EC006CCE41 /* TextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldCell.xib; sourceTree = "<group>"; };
-		721539D51D2AB31B006CCE41 /* LabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelCell.h; sourceTree = "<group>"; };
-		721539D61D2AB31B006CCE41 /* LabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelCell.m; sourceTree = "<group>"; };
-		721539D71D2AB31B006CCE41 /* LabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelCell.xib; sourceTree = "<group>"; };
 		727398011D1FBCA0002F881B /* iOS9_MoveItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS9_MoveItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		727398051D1FBCA1002F881B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		727398071D1FBCA1002F881B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		727398081D1FBCA1002F881B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7273980A1D1FBCA1002F881B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7273980B1D1FBCA1002F881B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7273980E1D1FBCA1002F881B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		727398101D1FBCA1002F881B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		727398131D1FBCA1002F881B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		727398151D1FBCA1002F881B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7273981B1D1FC242002F881B /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		7273981C1D1FC242002F881B /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +47,6 @@
 			children = (
 				727398031D1FBCA1002F881B /* iOS9_MoveItem */,
 				727398021D1FBCA0002F881B /* Products */,
-				727398041D1FBCA1002F881B /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,19 +63,15 @@
 			children = (
 				727398071D1FBCA1002F881B /* AppDelegate.h */,
 				727398081D1FBCA1002F881B /* AppDelegate.m */,
-				721539CB1D2A779C006CCE41 /* ButtonCell.h */,
-				721539CC1D2A779C006CCE41 /* ButtonCell.m */,
-				721539CD1D2A779C006CCE41 /* ButtonCell.xib */,
-				721539C61D2A757A006CCE41 /* KwzFlowLayout.h */,
-				721539C71D2A757A006CCE41 /* KwzFlowLayout.m */,
-				721539D51D2AB31B006CCE41 /* LabelCell.h */,
-				721539D61D2AB31B006CCE41 /* LabelCell.m */,
-				721539D71D2AB31B006CCE41 /* LabelCell.xib */,
-				721539D01D2A77EC006CCE41 /* TextFieldCell.h */,
-				721539D11D2A77EC006CCE41 /* TextFieldCell.m */,
-				721539D21D2A77EC006CCE41 /* TextFieldCell.xib */,
 				7273980A1D1FBCA1002F881B /* ViewController.h */,
 				7273980B1D1FBCA1002F881B /* ViewController.m */,
+				7273980D1D1FBCA1002F881B /* Main.storyboard */,
+				727398101D1FBCA1002F881B /* Assets.xcassets */,
+				727398121D1FBCA1002F881B /* LaunchScreen.storyboard */,
+				727398151D1FBCA1002F881B /* Info.plist */,
+				727398041D1FBCA1002F881B /* Supporting Files */,
+				7273981B1D1FC242002F881B /* CollectionViewCell.h */,
+				7273981C1D1FC242002F881B /* CollectionViewCell.m */,
 			);
 			path = iOS9_MoveItem;
 			sourceTree = "<group>";
@@ -95,12 +79,9 @@
 		727398041D1FBCA1002F881B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				727398151D1FBCA1002F881B /* Info.plist */,
-				727398101D1FBCA1002F881B /* Assets.xcassets */,
 				727398051D1FBCA1002F881B /* main.m */,
 			);
 			name = "Supporting Files";
-			path = iOS9_MoveItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,10 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				727398141D1FBCA1002F881B /* LaunchScreen.storyboard in Resources */,
 				727398111D1FBCA1002F881B /* Assets.xcassets in Resources */,
-				721539CF1D2A779C006CCE41 /* ButtonCell.xib in Resources */,
-				721539D91D2AB31B006CCE41 /* LabelCell.xib in Resources */,
-				721539D41D2A77EC006CCE41 /* TextFieldCell.xib in Resources */,
+				7273980F1D1FBCA1002F881B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,17 +154,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				721539D31D2A77EC006CCE41 /* TextFieldCell.m in Sources */,
-				721539D81D2AB31B006CCE41 /* LabelCell.m in Sources */,
 				7273980C1D1FBCA1002F881B /* ViewController.m in Sources */,
 				727398091D1FBCA1002F881B /* AppDelegate.m in Sources */,
-				721539CE1D2A779C006CCE41 /* ButtonCell.m in Sources */,
+				7273981D1D1FC242002F881B /* CollectionViewCell.m in Sources */,
 				727398061D1FBCA1002F881B /* main.m in Sources */,
-				721539C81D2A757A006CCE41 /* KwzFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7273980D1D1FBCA1002F881B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7273980E1D1FBCA1002F881B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		727398121D1FBCA1002F881B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				727398131D1FBCA1002F881B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		727398161D1FBCA1002F881B /* Debug */ = {
@@ -276,11 +272,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOS9_MoveItem/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kenny.w.zhang.iOS9-MoveItem";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,11 +283,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iOS9_MoveItem/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kenny.w.zhang.iOS9-MoveItem";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -316,7 +308,6 @@
 				7273981A1D1FBCA1002F881B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
